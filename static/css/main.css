@@ -25,6 +25,7 @@ time, mark, audio, video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    color: #93a1a1;
 }
 em {
     font-style: italic;
@@ -39,6 +40,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
+    background-color: #001b16;
 }
 ol, ul {
     list-style: none;
@@ -57,7 +59,7 @@ table {
 }
 
 body {
-    font-family: Georgia, serif;
+    font-family: 'URWClassicoRegular';
     font-size: 16px;
     line-height: 1.5em;
 }
@@ -69,6 +71,7 @@ header, #wrapper {
 }
 
 a {
+    font-family: 'GlacialIndifferenceRegular';
     text-decoration: none;
     color: #15A9DB;
 }
