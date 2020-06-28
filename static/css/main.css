@@ -358,6 +358,16 @@ div.highlight {
     margin-top: 1.2em;
 }
 
+p.caption {
+    font-style: italic;
+    margin-left: 2em;
+    margin-right: 2em;
+    text-align: center;
+    line-height: 1.2;
+    color: #ccc;
+    font-family: 'GlacialIndifferenceRegular';
+}
+
 @media screen and (max-width: 1024px) {
     #wrapper {
         margin-left: 2.6em;
@@ -388,6 +398,7 @@ div.highlight {
         margin: 0 0 1em 0;
     }
 }
+
 @media print {
     * {
         background: #fff;
@@ -419,6 +430,7 @@ div.highlight {
         font-size: 11pt;
     }
 }
+
 @page {
     margin: 1.5cm;
 }
