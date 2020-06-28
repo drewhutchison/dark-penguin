@@ -354,6 +354,10 @@ hr {
     width: 80%;
 }
 
+div.highlight {
+    margin-top: 1.2em;
+}
+
 @media screen and (max-width: 1024px) {
     #wrapper {
         margin-left: 2.6em;
