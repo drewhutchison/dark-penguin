@@ -20,10 +20,10 @@
                 <div class="info">
                     <a href="{{ SITEURL }}/{{ article.url }}">posted at {{ article.date.strftime("%H:%M") }}</a>
                     {% if article.category.name != "misc" %}
-                    &nbsp;&middot;&nbsp;<a href="{{ SITEURL }}/{{ article.category.url }}" rel="tag">{{ article.category }}</a>
+                    in&nbsp;<a href="{{ SITEURL }}/{{ article.category.url }}" rel="tag">{{ article.category }}</a>
                     {% endif %}
                     {% if article.tags %}
-                    &nbsp;&middot;
+                    <br>tags:
                     {% for t in article.tags %}
                     &nbsp;<a href="{{ SITEURL }}/{{ t.url }}" class="tags{% if tag and tag.name == t.name %} selected{% endif %}">{{ t }}</a>
                     {% endfor %}
