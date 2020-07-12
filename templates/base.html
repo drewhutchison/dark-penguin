@@ -1,5 +1,8 @@
 {% macro ephemeral_nav_link(what, where, selected=False) -%}
+{% if False %}
+## disable ephemeral nav for now but save code in case we want later --ajh
 <li class="ephemeral{% if selected %} selected{% endif %}"><a href="{{ SITEURL }}/{{ where }}">{{what}}</a></li>
+{% endif %}
 {%- endmacro -%}
 
 <!DOCTYPE html>
