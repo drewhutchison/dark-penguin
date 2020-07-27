@@ -1,8 +1,12 @@
 {% extends "base.html" %}
 {% block content %}
-<ul>
-    {% for tag, articles in tags %}
-        <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a></li>
-    {% endfor %}
-</ul>
+<div class="page">
+    <h1>Content tags</h1>
+    <p>In no particular order.</p>
+    <ul>
+        {% for tag, articles in tags %}
+            <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a></li>
+        {% endfor %}
+    </ul>
+</div>
 {% endblock %}
