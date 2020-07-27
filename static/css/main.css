@@ -326,7 +326,7 @@ footer p { margin: 0; }
 
 .clear { clear: both; }
 
-li a {
+nav li a, li.tag a {
     font-family: "Glacial Indifference";
 }
 
