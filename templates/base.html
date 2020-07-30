@@ -88,6 +88,12 @@
             <div class="clear"></div>
             <footer>
                 &copy;2020 andrew james hutchison
+                {% if FEED_ALL_ATOM %}
+                • <a href="{{FEED_ALL_ATOM}}">atom</a>
+                {% endif %}
+                {% if FEED_ALL_RSS %}
+                • <a href="{{FEED_ALL_RSS}}">rss</a>
+                {% endif %}
             </footer>
             {% endif %}
         </div>
